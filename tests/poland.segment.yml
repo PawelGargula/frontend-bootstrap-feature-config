@@ -1,14 +1,10 @@
-segment: netherlands
+segment: poland
 assertions:
   - context:
-      country: nl
+      country: pl
     expectedToMatch: true
 
   - context:
-      country: de
+      country: xy
       someOtherAttribute: someOtherValue
-    expectedToMatch: false
-
-  - context:
-      country: notNl
     expectedToMatch: false
